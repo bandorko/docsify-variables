@@ -1,16 +1,7 @@
 # Example
 ## content of the variables.xml file
-```xml
-<var>
-    <foo>fooValue</foo>
-    <bar>barValue</bar>
-    <list>
-        <item>first item</item>
-        <item>second item</item>
-        <item>third item</item>
-    </list>
-</var>
-```
+[filename](variables.xml ':include :type=code xml')
+
 ## you can use fully specified path to the variable
 This will be changed to the value of the **&lt;foo&gt;** tag in the **&lt;var&gt;** tag : {$var.foo}
 ## you can use XPath

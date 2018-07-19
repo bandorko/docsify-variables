@@ -22,5 +22,11 @@ to reference a tag in the xml you can use:
 - fully qualified path to the tag. eg.: {$var.foo}
 - or an XPath expression. eg.: {$/var/foo} or {$//item[2]}
 
+## Example source
+- [index.html](example/index.html)
+- [README.md](https://raw.githubusercontent.com/bandorko/docsify-variables/master/example/README.md)
+- [variables.xml](example/variables.xml)
+## Live example
+ https://bandorko.github.io/docsify-variables/example/#/
 ## Related
 - [docsify](https://github.com/docsifyjs/docsify)
