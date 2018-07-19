@@ -26,7 +26,7 @@ function install(hook,vm){
     variablesFile = vm.config.variablesFile;
 
     hook.afterEach(function(html, next) {
-        next(html.replace(/{\$(.*)}/g, function(a, b){return resolveVar(b)}))
+        next(html.replace(/{\$([^\}]*)}/g, function(a, b){return resolveVar(b)}))
     })
 }
 

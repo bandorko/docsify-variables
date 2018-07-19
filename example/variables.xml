@@ -1,0 +1,9 @@
+<var>
+    <foo>fooValue</foo>
+    <bar>barValue</bar>
+    <list>
+        <item>first item</item>
+        <item>second item</item>
+        <item>third item</item>
+    </list>
+</var>
