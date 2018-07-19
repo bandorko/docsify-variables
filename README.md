@@ -16,11 +16,11 @@ Docsify plugin that load variables form external xml file
 ```
 
 ## Usage
-docsify-variables will replace {$&lt;variable&gt;} references to a value of a tag in the variablesFile xml
+docsify-variables will replace ${&lt;variable&gt;} references to a value of a tag in the variablesFile xml
 
 to reference a tag in the xml you can use:
-- fully qualified path to the tag. eg.: {$var.foo}
-- or an XPath expression. eg.: {$/var/foo} or {$//item[2]}
+- fully qualified path to the tag. eg.: ${var.foo}
+- or an XPath expression. eg.: ${/var/foo} or ${//item[2]}
 
 ## Example source
 - [index.html](example/index.html)
