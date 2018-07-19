@@ -1,0 +1,33 @@
+{
+  "name": "docsify-variables",
+  "version": "1.1.0",
+  "description": "Docsify plugin that load variables from external xml file",
+  "main": "src",
+  "scripts": {
+    "build": "webpack . dist/docsify-variables.js && webpack . -p dist/docsify-variables.min.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bandorko/docsify-variables.git"
+  },
+  "keywords": [
+    "docsify",
+    "variables",
+    "plugin"
+  ],
+  "files": [
+    "src",
+    "dist",
+    "README.md"
+  ],
+  "author": "bandorko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bandorko/docsify-variables/issues"
+  },
+  "homepage": "https://github.com/bandorko/docsify-variables#readme",
+  "devDependencies": {
+    "webpack": "^3.5.4"
+  }
+}
