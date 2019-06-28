@@ -29,5 +29,8 @@
   "homepage": "https://github.com/bandorko/docsify-variables#readme",
   "devDependencies": {
     "webpack": "^3.5.4"
+  },
+  "dependencies": {
+    "jsonpath-plus": "^0.20.1"
   }
 }

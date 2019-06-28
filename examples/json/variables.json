@@ -1,0 +1,11 @@
+{
+  "var": {
+    "foo" :"fooValue",
+    "bar" :"barValue",
+    "item":[
+      "first item",
+      "second item",
+      "third item"
+    ]
+  }
+}
