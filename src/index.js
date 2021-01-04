@@ -8,12 +8,15 @@ function resolveVar(v){
     if (variablesFile && variablesObj == null){
         initVariablesObj();
     }
+    
+    let replacement = []
+    
     if (variablesFileType == "xml"){
-        return resolveXMLVar(v);
+        replacement = resolveXMLVar(v);
     }else if (variablesFileType == "json"){
-        return resolveJSONVar(v);
+        replacement = resolveJSONVar(v);
     }
-    return "${"+v+"}"
+    return replacement.length === 0 ? "${"+v+"}" : replacement
 }
 
 function resolveJSONVar(v){
